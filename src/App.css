@@ -1,0 +1,62 @@
+.container{
+  max-width: 400px;
+  min-height: 450px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255, 0.88);
+  box-shadow: 0 0 10px gray;
+  margin-top: 50px;
+  padding: 15px 50px;
+}
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(235, 235, 235);
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.expense-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0 0 5px gray;
+}
+
+.diva{
+  display: flex;
+}
+.red{
+  background-color: #c0392b;
+}
+
+.trnsaction-list {
+  margin: 0;
+  padding: 0;
+ 
+}
+.delete-btn{
+ 
+    border: none;
+    font-size: 21px;
+    
+    background-color: #ea6161db;
+}
+
+.trnsaction-list > li {
+  display: flex;
+  
+  justify-content: space-between;
+  flex-direction: row;
+  box-shadow: 0 0 5px gray;
+  padding: 10px 5px ;
+  margin: 5px;
+  background-color: white;
+}
+
+.transaction-form input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px 0;
+}
